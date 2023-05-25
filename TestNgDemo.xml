@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >  
+<suite name="99 flows test Automation suit">
+ <listeners>
+   <listener class-name="com.app.ExtentReports.ExtentReporterNG"/>
+ </listeners>
+	<test name="99 flows test cases">
+		<classes>
+			<class name="com.app.testcases.loginPageTest" />
+			<class name="com.app.testcases.HomePageTest" />
+			<class name="com.app.testcases.flowsPageTest" />
+			<class name="com.app.testcases.datasetPageTest" />
+		</classes>
+	</test>
+</suite>
